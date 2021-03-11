@@ -10,26 +10,14 @@ import {
 } from "react-router-dom";
 import TeamDetail from './Components/TeamDetail/TeamDetail';
 import Header from './Components/Header/Header';
+import Error from './Components/Error/Error';
 
 function App() {
   return (
     <div className="App">
       {/* <Home></Home> */}
       <Router>
-      <div>
-        {/* <nav>
-          <ul className="nav navBar">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
+      
 
         <Switch>
         <Route exact path="/">
@@ -44,8 +32,11 @@ function App() {
           <Route path="/team/:id">
             <TeamDetail></TeamDetail>
           </Route>
+          <Route path="*">
+            <Error />
+        </Route>
         </Switch>
-      </div>
+       
     </Router>
     </div>
   );

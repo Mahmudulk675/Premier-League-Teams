@@ -4,18 +4,8 @@
     background-position: center center;
     background-repeat:no-repeat;
     background-size: cover;
+    opacity: .8;
     
-    /* width: 100%; */
-    
-    /* color: white;
-    content: "";
-    position: relative;
-    top: 0px;
-    left: 0px;
-    height:auto;
-    width: 100%;
-    
-    opacity: .8; */
 }
 @media only screen and(max-width:650px){
     .headerContainer{

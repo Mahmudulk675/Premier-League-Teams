@@ -53,9 +53,9 @@ const DetailInfo = (props) => {
             </div>
             <div className="social container">
                 <ul>
-                    <a href={`https://${strTwitter}`}><FontAwesomeIcon icon={faTwitterSquare} /></a>
-                    <a href={`https://${strFacebook}`}><FontAwesomeIcon icon={faFacebookSquare} /></a>
-                    <a href={`https://${strYoutube}`}><FontAwesomeIcon icon={faYoutubeSquare} /></a>
+                    <a href={`https://${strTwitter}`} target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+                    <a href={`https://${strFacebook}`} target="_blank"><FontAwesomeIcon icon={faFacebookSquare} /></a>
+                    <a href={`https://${strYoutube}`} target="_blank"><FontAwesomeIcon icon={faYoutubeSquare} /></a>
                 </ul>
             </div>
         </div>
