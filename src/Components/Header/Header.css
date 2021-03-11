@@ -1,0 +1,27 @@
+.headerContainer{
+    background-image: url(../Photo/bg1.jpg)  ;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    /* width: 100%; */
+    
+    /* color: white;
+    content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height:auto;
+    width: 100%;
+    
+    opacity: .8; */
+}
+@media only screen and(max-width:650px){
+    .headerContainer{
+        background-image: url(../Photo/bg1.jpg);
+    }
+}
+.headerContainer h2{
+    padding:100px;
+}
