@@ -11,7 +11,7 @@ const TeamDetail = () => {
         fetch(url)
         .then(response => response.json())
         .then(data =>setDetails(data.teams))
-    },[])
+    },[id])
     console.log(details);
     return (
         <div>
