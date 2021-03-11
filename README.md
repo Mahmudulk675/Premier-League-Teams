@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 <!-- # Getting Started with Create React App
+=======
+Hey there, 
+>>>>>>> ec832799a79bc1e9b2be333d4160f6e433ddc453
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Premier League Teams.
+This simple Website will help you to find all the basic detail information about Premier League Teams.
+I hope it will help to to full-fill your desire about Premier League.
 
-## Available Scripts
+Thanks, 
+Mahmudul Hasan.
 
+<<<<<<< HEAD
 In the project directory, you can run:
 
 ### `yarn start`
@@ -80,3 +88,6 @@ Thanks,
 Mahmudul Hasan.
 
 Live site: -->
+=======
+[Live Site Link](https://compassionate-nobel-7c5789.netlify.app/)
+>>>>>>> ec832799a79bc1e9b2be333d4160f6e433ddc453
