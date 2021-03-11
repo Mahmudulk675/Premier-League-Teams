@@ -17,7 +17,7 @@ import male from '../Photo/male.png'
 
 
 const DetailInfo = (props) => {
-    const { strTeam,strTeamBadge,strTeamBanner,intFormedYear,strCountry,strGender,strDescriptionEN,strTwitter,strFacebook,strYoutube} = props.detail
+    const { strTeam,strTeamBanner,intFormedYear,strCountry,strGender,strDescriptionEN,strTwitter,strFacebook,strYoutube} = props.detail
     return (
         <div className="detailContainer">
             <div className="infoHeader">
