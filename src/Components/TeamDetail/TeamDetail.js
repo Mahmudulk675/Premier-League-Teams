@@ -15,7 +15,7 @@ const TeamDetail = () => {
     console.log(details);
     return (
         <div>
-            <h1></h1>
+            
             {
                 details.map(detail => <DetailInfo detail={detail} key={detail.idTeam}></DetailInfo> )
             }
