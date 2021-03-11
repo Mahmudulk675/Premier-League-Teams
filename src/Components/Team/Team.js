@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import './Team.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleRight,faFacebook } from '@fortawesome/free-solid-svg-icons'
+import { faArrowAltCircleRight, } from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
 
 const Team = (props) => {

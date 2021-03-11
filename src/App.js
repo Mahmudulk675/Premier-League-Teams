@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
 import TeamDetail from './Components/TeamDetail/TeamDetail';
 import Header from './Components/Header/Header';

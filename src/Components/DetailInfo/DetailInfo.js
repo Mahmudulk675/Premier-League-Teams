@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import { Image } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 import './DetailInfo.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlag, faMapMarkerAlt, faPlus,faFutbol, faVenusMars } from '@fortawesome/free-solid-svg-icons'
@@ -11,8 +11,8 @@ import { faFlag, faMapMarkerAlt, faPlus,faFutbol, faVenusMars } from '@fortaweso
 // import { faCheckSquare, faFacebookF,faPlus } from '@fortawesome/free-solid-svg-icons'
 // library.add(fab, faCheckSquare, faFacebookF)
 import male from '../Photo/male.png'
-import bg2 from '../Photo/bg1.jpg';
-import Footer from '../Footer/Footer';
+// import bg2 from '../Photo/bg1.jpg';
+// import Footer from '../Footer/Footer';
 
 
 
