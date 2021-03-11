@@ -23,5 +23,7 @@
     }
 }
 .headerContainer h2{
-    padding:100px;
+    padding:150px 0px;
+    color:white;
+    font-size:3vw;
 }

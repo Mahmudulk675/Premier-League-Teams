@@ -4,6 +4,7 @@
 .teamInfo, img{
     width:100%;
     height:auto;
+    padding:15px;
 }
 .teamInfo{
     background-color:rgb(202, 55, 55);
@@ -12,8 +13,8 @@
     padding:10px;
 }
 .teamInfoData{
-    align-items: center;
-    justify-content:center;
+    text-align: center;
+    
     margin-top: 40px;
     margin-right: auto;
 }
@@ -31,4 +32,5 @@
 }
 ul a{
     margin:20px;
+    font-size: 40px;
 }

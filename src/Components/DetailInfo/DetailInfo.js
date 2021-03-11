@@ -4,20 +4,21 @@ import React from 'react';
 // import { Image } from 'react-bootstrap';
 import './DetailInfo.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag, faMapMarkerAlt, faPlus,faFutbol, faVenusMars } from '@fortawesome/free-solid-svg-icons'
+import { faFlag, faMapMarkerAlt,faFutbol, faVenusMars } from '@fortawesome/free-solid-svg-icons'
+import male from '../Photo/male.png';
+import female from '../Photo/female.png'
 
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faFacebookF,faPlus } from '@fortawesome/free-solid-svg-icons'
-// library.add(fab, faCheckSquare, faFacebookF)
-import male from '../Photo/male.png'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {  faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons' 
+
+library.add(faFacebookSquare, faTwitterSquare,faYoutubeSquare); 
 // import bg2 from '../Photo/bg1.jpg';
 // import Footer from '../Footer/Footer';
 
 
 
 const DetailInfo = (props) => {
-    const { strTeam,strTeamBanner,intFormedYear,strCountry,strGender,strDescriptionEN,strTwitter,strFacebook,strYoutube} = props.detail
+    let { strTeam,strTeamBanner,intFormedYear,strCountry,strSport,strGender,strDescriptionEN,strTwitter,strFacebook,strYoutube} = props.detail
     return (
         <div className="detailContainer">
             <div className="infoHeader">
@@ -32,12 +33,18 @@ const DetailInfo = (props) => {
                        <h2>{strTeam}</h2><br/>
                        <h5><FontAwesomeIcon icon={faMapMarkerAlt} /> Founded : {intFormedYear}</h5>
                        <h5><FontAwesomeIcon icon={faFlag} /> Country : {strCountry}</h5>
-                       <h5><FontAwesomeIcon icon={faFutbol} /> Sports Type: Football</h5>
+                       <h5><FontAwesomeIcon icon={faFutbol} /> Sports Type: {strSport}</h5>
                        <h5><FontAwesomeIcon icon={faVenusMars} /> Gander : {strGender}</h5>
 
                     </div>
                     <div className="col-sm-6">
-                        <img src={male} alt=""/>
+                        {
+                            strGender === 'Male'
+                            ? <img src={male} alt=""/>
+                            : <img src={female} alt=""/>
+                        }
+
+                        
                     </div>
                     </div>
                 </div>
@@ -46,9 +53,9 @@ const DetailInfo = (props) => {
             </div>
             <div className="social container">
                 <ul>
-                    <a href={`https://${strTwitter}`}><FontAwesomeIcon icon={faPlus} /></a>
-                    <a href={`https://${strFacebook}`}><FontAwesomeIcon icon={faPlus} /></a>
-                    <a href={`https://${strYoutube}`}><FontAwesomeIcon icon={faPlus} /></a>
+                    <a href={`https://${strTwitter}`}><FontAwesomeIcon icon={faTwitterSquare} /></a>
+                    <a href={`https://${strFacebook}`}><FontAwesomeIcon icon={faFacebookSquare} /></a>
+                    <a href={`https://${strYoutube}`}><FontAwesomeIcon icon={faYoutubeSquare} /></a>
                 </ul>
             </div>
         </div>
